@@ -165,108 +165,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &461722487 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8986112370564744747, guid: 6ae86cb2f18aa4c32949385976ba453a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1711488671453414509}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &461722488
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461722487}
-  m_Enabled: 0
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fd71b983e502243f381e14e03e909a19, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.4
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &570287478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,44 +1037,9 @@ PrefabInstance:
       objectReference: {fileID: 2127200028}
     - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
         type: 3}
-      propertyPath: m_Attacks.Array.data[0].m_Offset.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
-      propertyPath: m_Attacks.Array.data[0].m_Offset.y
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
-      propertyPath: m_Attacks.Array.data[1].m_Offset.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
-      propertyPath: m_Attacks.Array.data[1].m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
       propertyPath: m_HUD
       value: 
       objectReference: {fileID: 1390139120}
-    - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
-      propertyPath: healthPillSound
-      value: 
-      objectReference: {fileID: 8300000, guid: e5e1c801c2d404ee6997a0a04cb3aee5, type: 3}
-    - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
-      propertyPath: healthPillClip
-      value: 
-      objectReference: {fileID: 8300000, guid: e5e1c801c2d404ee6997a0a04cb3aee5, type: 3}
-    - target: {fileID: 8386562001298892787, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
-      propertyPath: stepClip
-      value: 
-      objectReference: {fileID: 8300000, guid: fd71b983e502243f381e14e03e909a19, type: 3}
     - target: {fileID: 8986112370564744747, guid: 6ae86cb2f18aa4c32949385976ba453a,
         type: 3}
       propertyPath: m_Name
@@ -1237,10 +1100,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8986112370574111841, guid: 6ae86cb2f18aa4c32949385976ba453a,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: a7c68a1ed45a848ad854dac7ddf7cc5d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 461722488, guid: 6ae86cb2f18aa4c32949385976ba453a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6ae86cb2f18aa4c32949385976ba453a, type: 3}

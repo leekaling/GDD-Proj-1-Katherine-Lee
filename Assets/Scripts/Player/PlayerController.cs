@@ -33,6 +33,10 @@ public class PlayerController : MonoBehaviour
 	[SerializeField]
 	[Tooltip("")]
 	private AudioClip stepClip;
+
+	[SerializeField]
+	[Tooltip("")]
+	private AudioClip magicClip;
 	#endregion
 
 	#region Cached References
@@ -50,6 +54,7 @@ public class PlayerController : MonoBehaviour
 	private Color p_DefaultColor;
 	private float p_CurHealth;
 	private AudioSource p_StepSound;
+	private AudioSource p_MagicSound;
 	private AudioSource p_HealthPillSound;
 	#endregion
 
@@ -75,6 +80,11 @@ public class PlayerController : MonoBehaviour
 		p_HealthPillSound.playOnAwake = false;
 		p_HealthPillSound.volume = .2f;
 		p_HealthPillSound.clip = healthPillClip;
+
+		p_MagicSound = gameObject.AddComponent<AudioSource>();
+		p_MagicSound.playOnAwake = false;
+		p_MagicSound.volume = .5f;
+		p_MagicSound.clip = magicClip;
 
 		for (int i = 0; i < m_Attacks.Length; i++)
 		{
@@ -241,10 +251,17 @@ public class PlayerController : MonoBehaviour
     }
     #endregion
 
-    #region Footstep Methods
+    #region Play Sound Effects Methods
     private void Step()
     {    	
     	p_StepSound.Play();
     }
-    #endregion
+
+	private void Magic()
+	{
+		p_MagicSound.Play();
+	}
+	#endregion
+
+
 }
